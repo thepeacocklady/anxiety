@@ -28,7 +28,7 @@ h: Jé, ahoj! Už jsme zase tady?
 
 `hong({eyes:"0_neutral"})`
 
-n: TVOU PRACÍ JE OCHRÁNIT TVÉHO ČLOVĚKA PŘED *OHROŽENÍM*
+n: TVÝM ÚKOLEM JE OCHRÁNIT TVÉHO ČLOVĚKA PŘED *OHROŽENÍM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Přiměje nás se schoulit do klubíčka a plakat!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Přiměje nás zničit tvůj telefon, protože ti způsobil panickou ataku!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: *NE*přiměje nás uhodit pořadatele večírku!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: Přiměje nás uhodit Sympatického Anti-Padoucha pořadatele večírku!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Ale aspoň tentokrát možná neskočíme ze stře--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: PŘIMĚJE NÁS SKOČIT ZE STŘECHY.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: STANOU SE NÁM VŠECHNY TYHLE NOVÉ HRŮZNOSTI, A POTOM--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Jasně, příběh jako *celek* je pořád stejný, ale každá kapitola má dva možné konce, plus všechny ty rozvětvené možnosti dia--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Hráč bude zklamaný, zavře tuhle záložku prohlížeče, smaže náš software a potom budeme--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: A jaká ošklivost bude teď?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Příběh byl o tom, že si můžeš *ZVOLIT*, že si vybuduješ zdravou spolupráci se svým strachem,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Ale když si zahraješ znovu, zažiješ stejný příběh. To naznačuje, že na tvých *VOLBÁCH* nezáleží,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: Tím pádem uvidíš rozpor mezi poselstvím a fungováním hry,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: Takže se odkryje struktura tohoto narativního světa,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: A pak budeme--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: UMŘIIIIIIIIIIIIIIIIII
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Okej, pojďme se vrátit do rolí.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (NECH _SVOU_ ÚZKOST BLA BLA BLA CO NEJBLÍŽ _TVÉMU_ STRACHU BLA BLA UŽ VÍŠ, JAK TO CHODÍ)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: No bezva, můj vlk je zpět. Skvěěěěěělý.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TVÝM ÚKOLEM JE OCHRÁNIT TVÉHO ČLOVĚKA PŘED *OHROŽENÍM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: vLASTNĚ HO TEN SENDVIČ PRÁVĚ TEĎ *OHROŽUJE*
 
-n: QUICK, WARN THEM!
+n: RYCHLE, VARUJ HO!
 
 ```
 sfx("squeak");
@@ -204,21 +204,22 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Člověče! Poslouchej, jsme v ohrožení! Problém je, že...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (NECH _SVOJI_ ÚZKOST, AŤ SI ZAHRAJE! VYBER MOŽNOST, KTERÁ JE NEJBLÍŽE TOMU, CO TI ŘÍKÁ _TVŮJ_ STRACH)
+
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Obědváme sami! Už zase!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Když jíme, nejsme produktivní!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[To bílé pečivo nám škodí!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
