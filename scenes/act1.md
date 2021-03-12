@@ -194,7 +194,7 @@ n: TVÝM ÚKOLEM JE OCHRÁNIT TVÉHO ČLOVĚKA PŘED *OHROŽENÍM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: vLASTNĚ HO TEN SENDVIČ PRÁVĚ TEĎ *OHROŽUJE*
+n: VLASTNĚ HO TEN SENDVIČ PRÁVĚ TEĎ *OHROŽUJE*
 
 n: RYCHLE, VARUJ HO!
 
