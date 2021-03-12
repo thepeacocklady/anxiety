@@ -48,7 +48,7 @@ b: Člověče! Poslouchej, jsme v ohrožení! Hráč...
 
 [...se nedostane k jinému konci!](#act1_replay_alternate)
 
-[...zažije ludonarrativní dissonancei!](#act1_replay_dissonance)
+[...zažije ludonarrativní dissonanci!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
